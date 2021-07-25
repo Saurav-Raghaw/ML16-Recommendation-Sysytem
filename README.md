@@ -1,5 +1,5 @@
 # ML16-Recommendation-Sysytem
-This Project is created under the IITISoC'21.
+This Project is created under the event of IITISoC'21.
 
 
 
@@ -26,7 +26,7 @@ This Project is created under the IITISoC'21.
 <br />
 <p align="center">
   <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="movie_coll.jpeg" alt="Logo" width="1500" height="500">
   </a>
 
   <h3 align="center">Movie Recommendation System</h3>
@@ -204,6 +204,6 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/saurav-kumar-78b97920a/
 [product-screenshot]: images/screenshot.png
 
