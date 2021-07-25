@@ -75,16 +75,21 @@ This Project is created under the event of IITISoC'21.
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+As we know, a recommender system is an information filtering system that seeks to predict the rating given by a user to an item. This predicted rating is then used to recommend items to the user. The item for which the predicted rating is high will be recommended to the user.
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+Recommender systems are utilized in a variety of areas such as Amazon, UberEats, Netflix, and Youtube.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+We have generally four types of Recommender Systems (RS):
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+1. Collaborative Filtering
+2. Content-Based Filtering
+3. Similarity-Based Filtering
+4. Matrix Factorization
+
+
+It is used by almost all of the major companies to enhance their business and to enrich user experience like YouTube for recommending videos, Amazon & Ebay for recommending products, Netflix for recommending Movies, Airbnb for recommending rooms and hotels, Facebook for recommending friends etc.
+
+Here we have build a movie recommender model that works similar like Netflix and Amazon Prime movie recommender system.
 
 ### Built With
 
