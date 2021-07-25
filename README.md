@@ -91,12 +91,15 @@ It is used by almost all of the major companies to enhance their business and to
 
 Here we have build a movie recommender model that works similar like Netflix and Amazon Prime movie recommender system.
 
-### Built With
+### Frameworks used
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+We have used the following frameworks for our project
+* [Python](https://www.python.org/)
+* [PyTorch](https://pytorch.org/)
+* [LSTM](https://pytorch.org/docs/stable/generated/torch.nn.LSTM.html)
 * [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [HTML](https://html.com/html5/)
 
 
 
@@ -169,29 +172,23 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## Team Deatils
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+* Saurav Kumar - [![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
+* Swastik Saxena - [![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
+* Rupesh Kumar - [![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+
 
 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+* [MATRIX FACTORIZATION TECHNIQUES FOR RECOMMENDER SYSTEMS](https://www.linkedin.com/posts/saurav-kumar-78b97920a_recommender-system-netflix-activity-6814943939448102912-3Mjh/)
+* [Fundamental of Matrix Factorization For Recommender System](https://www.linkedin.com/pulse/fundamental-matrix-factorization-recommender-system-saurav-kumar/)
 * [Img Shields](https://shields.io)
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Pages](https://pages.github.com)
-* [Animate.css](https://daneden.github.io/animate.css)
-* [Loaders.css](https://connoratherton.com/loaders)
-* [Slick Carousel](https://kenwheeler.github.io/slick)
-* [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
-* [Sticky Kit](http://leafo.net/sticky-kit)
-* [JVectorMap](http://jvectormap.com)
-* [Font Awesome](https://fontawesome.com)
-
-
 
 
 
@@ -207,5 +204,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [issues-url]: https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem/issues
 [linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
 [linkedin-url]: https://www.linkedin.com/in/saurav-kumar-78b97920a/
+[github-shield]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/Saurav-Raghaw
 [product-screenshot]: images/screenshot.png
 
