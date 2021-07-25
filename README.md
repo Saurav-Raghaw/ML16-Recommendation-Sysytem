@@ -73,7 +73,81 @@ This Project is created under the event of IITISoC'21.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<p align="center">
+    Screenshot-1
+    <br />
+    
+  </p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="Screenshot -1.png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
+
+<p align="center">
+    Screenshot-2
+    <br />
+    
+  </p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="Screenshot -2.png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
+
+<p align="center">
+    Screenshot-3
+    <br />
+    
+  </p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="Screenshot -3.png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
+
+<p align="center">
+    Screenshot-5
+    <br />
+    
+  </p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="Screenshot -5.png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
+
+<p align="center">
+    Screenshot-4
+    <br />
+    
+  </p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="Screenshot -4.png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
+
 
 As we know, a recommender system is an information filtering system that seeks to predict the rating given by a user to an item. This predicted rating is then used to recommend items to the user. The item for which the predicted rating is high will be recommended to the user.
 
@@ -174,9 +248,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Team Deatils
 
-* Saurav Kumar - [![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
-* Swastik Saxena - [![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
-* Rupesh Kumar - [![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
+
+* Saurav Kumar
+[![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
+
+* Swastik Saxena  
+[![LinkedIn][linkedin-shield]][linkedin2-url]  [![GitHub][github-shield]][github2-url] 
+
+* Rupesh Kumar  
+[![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
 
 
 
@@ -206,5 +286,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [linkedin-url]: https://www.linkedin.com/in/saurav-kumar-78b97920a/
 [github-shield]: https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
 [github-url]: https://github.com/Saurav-Raghaw
+[github2-url]: https://github.com/sswastik630
+[linkedin2-url]: https://www.linkedin.com/in/swastik-saxena-448b5817b/
 [product-screenshot]: images/screenshot.png
 
