@@ -49,7 +49,7 @@ This Project is created under the event of IITISoC'21.
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#built-with">Frameworks</a></li>
       </ul>
     </li>
     <li>
@@ -60,7 +60,6 @@ This Project is created under the event of IITISoC'21.
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -186,26 +185,35 @@ To get a local copy up and running follow these simple example steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+1. Install Pandas
   ```sh
-  npm install npm@latest -g
+  !pip install pandas
   ```
+2. Install NumPy
+ ```sh
+ !pip install numpy
+ ```
+3. Install Flask
+```sh
+!pip install flask
+```
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Get a free API Key at [Here](https://developers.themoviedb.org/3/getting-started/introduction)
 2. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem
    ```
-3. Install NPM packages
+3. Update your API and Main File 
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
    const API_KEY = 'ENTER YOUR API';
    ```
+4. Command to Run
+  ```sh
+  python main.py
+  ```
+  
 
 
 
@@ -216,12 +224,6 @@ Use this space to show useful examples of how a project can be used. Additional 
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 
 
