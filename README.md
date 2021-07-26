@@ -72,6 +72,25 @@ This Project is created under the event of IITISoC'21.
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+
+As we know, a recommender system is an information filtering system that seeks to predict the rating given by a user to an item. This predicted rating is then used to recommend items to the user. The item for which the predicted rating is high will be recommended to the user.
+
+Recommender systems are utilized in a variety of areas such as Amazon, UberEats, Netflix, and Youtube.
+
+We have generally four types of Recommender Systems (RS):
+
+1. Collaborative Filtering
+2. Content-Based Filtering
+3. Similarity-Based Filtering
+4. Matrix Factorization
+
+
+It is used by almost all of the major companies to enhance their business and to enrich user experience like YouTube for recommending videos, Amazon & Ebay for recommending products, Netflix for recommending Movies, Airbnb for recommending rooms and hotels, Facebook for recommending friends etc.
+
+Here we have build a movie recommender model that works similar like Netflix and Amazon Prime movie recommender system.
+
+Movie Recommendation
+
 <p align="center">
     Screenshot-1
     <br />
@@ -118,7 +137,7 @@ This Project is created under the event of IITISoC'21.
 <br />
 
 <p align="center">
-    Screenshot-5
+    Screenshot-4
     <br />
     
   </p>
@@ -133,7 +152,7 @@ This Project is created under the event of IITISoC'21.
 <br />
 
 <p align="center">
-    Screenshot-4
+    Screenshot-5
     <br />
     
   </p>
@@ -147,22 +166,37 @@ This Project is created under the event of IITISoC'21.
 
 <br />
 
+Movie Review
 
-As we know, a recommender system is an information filtering system that seeks to predict the rating given by a user to an item. This predicted rating is then used to recommend items to the user. The item for which the predicted rating is high will be recommended to the user.
+<p align="center">
+    Screenshot-6
+    <br />
+</p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="Screenshot (174).png" alt="Logo" width="1500" height="500">
+  </a>
 
-Recommender systems are utilized in a variety of areas such as Amazon, UberEats, Netflix, and Youtube.
+</p>
 
-We have generally four types of Recommender Systems (RS):
+<br />
 
-1. Collaborative Filtering
-2. Content-Based Filtering
-3. Similarity-Based Filtering
-4. Matrix Factorization
+<p align="center">
+    Screenshot-7
+    <br />
+</p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="Screenshot (175).png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
 
 
-It is used by almost all of the major companies to enhance their business and to enrich user experience like YouTube for recommending videos, Amazon & Ebay for recommending products, Netflix for recommending Movies, Airbnb for recommending rooms and hotels, Facebook for recommending friends etc.
-
-Here we have build a movie recommender model that works similar like Netflix and Amazon Prime movie recommender system.
 
 ### Frameworks used
 
@@ -210,9 +244,9 @@ This is an example of how to list things you need to use the software and how to
    const API_KEY = 'ENTER YOUR API';
    ```
 4. Command to Run
-  ```sh
-  python main.py
-  ```
+   ```sh
+   python main.py
+   ```
   
 
 
