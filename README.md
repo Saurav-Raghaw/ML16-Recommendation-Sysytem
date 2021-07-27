@@ -210,11 +210,7 @@ We have used the following frameworks for our project
 
 
 
-<!-- GETTING STARTED -->
-## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
@@ -251,12 +247,7 @@ This is an example of how to list things you need to use the software and how to
 
 
 
-<!-- USAGE EXAMPLES -->
-## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 
 
@@ -292,7 +283,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [![LinkedIn][linkedin-shield]][linkedin2-url]  [![GitHub][github-shield]][github2-url] 
 
 * Rupesh Kumar  
-[![LinkedIn][linkedin-shield]][linkedin-url]  [![GitHub][github-shield]][github-url] 
+[![LinkedIn][linkedin-shield]][linkedin3-url]  [![GitHub][github-shield]][github3-url] 
 
 
 
@@ -324,5 +315,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 [github-url]: https://github.com/Saurav-Raghaw
 [github2-url]: https://github.com/sswastik630
 [linkedin2-url]: https://www.linkedin.com/in/swastik-saxena-448b5817b/
+[github3-url]: https://www.linkedin.com/in/rupesh-kumar-316848121
+[linkedin3-url]: https://github.com/rupeshkmr
 [product-screenshot]: images/screenshot.png
 
