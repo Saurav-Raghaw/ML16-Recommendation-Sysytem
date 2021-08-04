@@ -1,0 +1,32 @@
+
+body{
+	background-image: url("http://cdn26.us1.fansshare.com/photo/famousmovies/movie-collage-best-movies-ever-of-all-time-9926211.jpg");
+	background-color: #cccccc;
+	opacity: 1;
+}
+#leftbox {
+	float:left; 
+	background:pink;
+	width:50%;
+	height:280px;
+}
+#righbox{
+	float:right; 
+	background: blue;
+	width:50%;
+	height:280px;
+}
+#leftinnerbox{
+	float:left;
+}
+#rightinnerbox{
+	padding-left: 2px;
+	float:left;
+	text-align: left;
+}
+h1{
+	text-align: center;
+}
+#main{
+	text-align: center;
+}

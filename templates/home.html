@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='my.css')  }}">
+    <title>Recommendation System</title>
+</head>
+<body>
+    <div  class="container"  id="main" style=" background-color: yellowgreen; margin-top: 1cm; padding: 20px;">
+        <h1>Recommendation System</h1>
+         <form method="POST", action="{{url_for('recommend')}}">
+            <input class="form-control" name="movie_name"  type="text"placeholder="Enter movie name you want to search"aria-label="default input example">
+        <br>
+            <input type="submit" class="btn btn-primary" name="submit_button" value="Recommendation">
+            <input type="submit" class="btn btn-primary" name="submit_button" value="Review">
+     </form>
+     {%if data=='not found'%}
+     <h1>The movie you requested is not available</h1>
+     {%endif%}
+     {%if data=='comment'%}
+     <h1>Your review have been recorded</h1>
+     {%endif%}
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</body>
+</html>

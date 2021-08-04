@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='my.css')  }}">
+<title>Recommendation Page</title>
+</head>
+<body> 
+  <div style=" background-color:#164A41
+  ;   color: antiquewhite;">
+    <a href="/">Click here to go back</a>
+  
+  <h1>{{ data["name"] }}</h1>
+    <h2 style="text-align: center;">{{data['movie_details']['tagline']}}</h2>
+  
+    <img src={{data['movie_details']['backdrop_image']}} class="rounded mx-auto d-block"  width="80%"  style="align-self: center;" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm">
+          <h2>Movie Details</h2>
+          <h4>Rating : {{data['movie_details']['rating']}}/10</h4>
+          <h4>Genere : 
+            {%for i in data['movie_details']['genre'] %}
+            {{i}}
+            {%endfor%}
+          </h4>
+        </div>
+        <div class="col-sm">
+          <h2>Overview</h2>
+          <p>{{data['movie_details']['overview']}}</p>
+        </div>
+      </div>
+    </div>
+    
+    
+    <h2 style="text-align: center; color: black;">Top Cast</h2>
+    {%for i in data['cast']%}
+    <div >
+      <div style="background-color: #9DC88D; color: black;"  id="leftbox">
+        <div style="padding-left: 10px; padding-top: 10px;"   id = "leftinnerbox">
+          <img src={{i['profile_path']}} height=250px alt="">
+        </div> 
+        <div  style="padding-left: 10px; padding-top: 10px; "  id = "rightinnerbox">
+          <h3>{{i['name']}}</h3>
+          <h4>Known for {{i['known_for']}}</h4>
+        </div>
+      </div>
+    </div>
+    {%endfor%}
+    <div style=" background-color: blue;">
+      <h1 style="margin-top: 0%; background-color: #F1B24A;">Movies similar to {{data['name']}}</h1>
+                  {%for i in data['recomend']%}
+                  <div style="background-color: #1F2833;" id="leftbox" style="margin: top 50px; ;">
+                    <div style="padding-top: 10px; padding-left: 10px;"    id = "leftinnerbox">
+                      <img src={{i['poster']}} height=250px alt="image not found">
+                    </div> 
+                    <div style="padding-left: 10px;  padding-top: 10px; "  id = "rightinnerbox">
+                      <h3>{{i['name']}}</h3>
+                      <h3>Rating : {{i['rating']}}/10</h3>
+                      <h3>Release Date : {{i['release_date']}}/10</h3>
+                    </div>
+                  </div>
+              {%endfor%}
+    </div>
+                
+          </div>      
+</body>
+</html>
