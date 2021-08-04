@@ -192,6 +192,50 @@ Movie Review
 
 <br />
 
+Codes Screenshots
+
+<p align="center">
+    Screenshot-8
+    <br />
+</p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="notebook3.png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
+
+<p align="center">
+    Screenshot-9
+    <br />
+</p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="notebook2.png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
+
+<p align="center">
+    Screenshot-9
+    <br />
+</p>
+<br />
+<p align="center">
+  <a href="https://github.com/Saurav-Raghaw/ML16-Recommendation-Sysytem">
+    <img src="notebook1.png" alt="Logo" width="1500" height="500">
+  </a>
+
+</p>
+
+<br />
+
 
 
 ### Frameworks used
