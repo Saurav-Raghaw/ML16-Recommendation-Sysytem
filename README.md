@@ -222,8 +222,56 @@ Codes Screenshots
 
 <br />
 
+Count Vectorizer:
+CountVectorizer tokenizes(tokenization means dividing the sentences in words) the text along with performing very basic preprocessing. It removes the punctuation marks and converts all the words to lowercase. The vocabulary of known words is formed which is also used for encoding unseen text later. An encoded vector is returned with a length of the entire vocabulary and an integer count for the number of times each word appeared in the document.
+
+Example: 
+<br />
+```sh
+document=["Action Adventure Fantasy Science Fiction", "Action Adventure Science Fiction", "Animation Family",
+          "Action Crime Drama the Thriller",
+         "Adventure Action Thriller Crime", "Action Drama Horror in Science Fiction Thriller", 
+         "Drama Romance", "Science Fiction Fantasy Action Adventure", "Adventure Family Fantasy",
+          "Comedy Adventure Fantasy Animation Family",
+         "Family Animation", "Adventure Action Thriller Science Fiction", 
+          "Action Thriller Science Fiction Adventure", "Comedy",
+         "Comedy Drama Romance", "Drama the History War Action"]
+ ```
+ <br />
+ 
+```sh
+#Intializing the object for countvectorizer.
+obj_cv = CountVectorizer(document)
+
+vocab = obj_cv.fit(document)
+vocab.vocabulary_
+```
+<br />
+
+```sh
+
+{'action': 0,
+ 'adventure': 1,
+ 'fantasy': 7,
+ 'science': 13,
+ 'fiction': 8,
+ 'animation': 2,
+ 'family': 6,
+ 'crime': 4,
+ 'drama': 5,
+ 'the': 14,
+ 'thriller': 15,
+ 'horror': 10,
+ 'in': 11,
+ 'romance': 12,
+ 'comedy': 3,
+ 'history': 9,
+ 'war': 16}
+ 
+```
+
 <p align="center">
-    Screenshot-9
+    Screenshot-10
     <br />
 </p>
 <br />
